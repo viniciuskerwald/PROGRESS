@@ -1,0 +1,3 @@
+TRIGGER PROCEDURE FOR CREATE OF Estoque.
+
+ASSIGN Estoque.Codigo = NEXT-VALUE(Seq-Cod).
